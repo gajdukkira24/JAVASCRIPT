@@ -37,3 +37,33 @@ const userPassword = "jqueryismyjam";
 
 const  isValid =correctPassword === userPassword ;
 console.log(isValid);
+
+
+
+// 5.845   >>>>>   5.8
+let numOne = 5.845;
+numOne  = numOne. toFixed(1)
+console .log(numOne )
+numOne = Number(numOne)
+console .log(numOne )
+
+/*   задача 4
+    Напиши скрипт який каже користувачу ввести число та ступінь,
+    потім зводить число до ступеню та виводить результат в консоль
+      1. попросити ввести число і зберегти в змінну та вивести в консоль
+      2. попросити ввести ступінь та зберегти в змінну та вивести в консоль
+      3. Звести введені дані до ступеня та вивести результат в консоль
+
+      !!! перед розрахунком перетворити явно отримані результати в число
+ */
+
+      const number = prompt("Введіть число");
+      const power = prompt("Введіть ступінь");
+      console.log(number, power);
+      const result = Number(number) ** Number(power);
+      console.log(result);
+      alert(result)
+
+
+
+
