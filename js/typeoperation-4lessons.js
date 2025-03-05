@@ -55,6 +55,7 @@ console.log()
 //   Якщо відвідувач вводить “ECMAScript”, виведіть “Правильно!”, 
 //   в іншому випадку — виведіть: “Ви не знаєте? ECMAScript!”
 const userInput = "jnoik";
+const userInput1 = "jnoik";
 // const userInput = "EcMAScriPt";
 
 if (userInput.toLowerCase() === "ECMAScript".toLowerCase()) {
@@ -62,7 +63,9 @@ if (userInput.toLowerCase() === "ECMAScript".toLowerCase()) {
 }
 else {
 	console.log('Ви не знаєте? ECMAScript!')
-};
+}
+const Newmessage = userInput.toLowerCase() === "ECMAScript".toLowerCase() ?  "Правильно" : "Неправильно" ;
+console.log(Newmessage);
 
 const num1 = 5;
 const num2 = 10;
@@ -81,3 +84,21 @@ if (age > 18){
 type = "adult"
 }else{ type = "child"}
 console.log(type)
+
+
+const a = 4;
+const b = 5;
+let result;
+if (a + b < 4) {
+  result = 'Нижче';
+} else {
+  result = 'Вище';
+}
+
+const newresult = ( a + b < 4 )? 'Нижче' : 'Вище' ;
+
+
+console.log(newresult);
+
+
+
